@@ -1,0 +1,71 @@
+.card {
+    border: 1px solid lightgrey;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 1px 3px 18px 2px #000000;
+    background: #fff;
+    padding-bottom: 30px;
+    height: 700px;
+    width: 400px;
+  }
+  
+  .card .heading {
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .heading, .desc-block, .action-block {
+    padding: 0 10px
+  }
+  
+  .desc-block {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+  
+  .action-block {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .action-block .cart {
+    background-color: darkgreen;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .navigation {
+    width: 471px;
+    height: 29px;
+    margin-right: 235px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+
+ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  li {
+    margin-right: 32px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+  }
+
+  img {
+    width: 400px;
+  }
+  
